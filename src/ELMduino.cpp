@@ -1970,13 +1970,13 @@ float ELM327::fuelRate()
 
 
 float ELM327::engineFuelConsumption() {
-    return processPID(SERVICE_01, ENGINE_FUEL_CONSUPTION, 1, 2, 1.0 / 20.0);
+    return processPID(SERVICE_01, ENGINE_FUEL_CONSUMPTION, 1, 2, 1.0 / 20.0);
 }
 float ELM327::avgReagentConsumption1() {
-    return processPID(SERVICE_01, REAGENT_AVG_CONSUPTION_1, 1, 2, 1.0 / 20.0);
+    return processPID(SERVICE_01, REAGENT_AVG_CONSUMPTION_1, 1, 2, 1.0 / 20.0);
 }
 float ELM327::avgReagentConsumption2() {
-    return processPID(SERVICE_01, REAGENT_AVG_CONSUPTION_2, 1, 2, 1.0 / 20.0);
+    return processPID(SERVICE_01, REAGENT_AVG_CONSUMPTION_2, 1, 2, 1.0 / 20.0);
 }
 float ELM327::instantFuelConsumptionCalc1() {
     return processPID(SERVICE_01, INSTANT_FUEL_CONSUMPTION_CALC_1, 1, 2, 1.0 / 20.0);
@@ -1985,13 +1985,13 @@ float ELM327::instantFuelConsumptionCalc2() {
     return processPID(SERVICE_01, INSTANT_FUEL_CONSUMPTION_CALC_2, 1, 2, 1.0 / 20.0);
 }
 float ELM327::avgFuelConsumption() {
-    return processPID(SERVICE_01, AVG_FUEL_CONSUPTION, 1, 2, 1.0 / 20.0);
+    return processPID(SERVICE_01, AVG_FUEL_CONSUMPTION, 1, 2, 1.0 / 20.0);
 }
 float ELM327::avgFuelConsumptionTotal() {
-    return processPID(SERVICE_01, AVG_FUEL_CONSUPTION_TOTAL, 1, 2, 1.0 / 20.0);
+    return processPID(SERVICE_01, AVG_FUEL_CONSUMPTION_TOTAL, 1, 2, 1.0 / 20.0);
 }
 float ELM327::avgFuelConsumption10sec() {
-    return processPID(SERVICE_01, AVG_FUEL_CONSUPTION_10_SEC, 1, 2, 1.0 / 20.0);
+    return processPID(SERVICE_01, AVG_FUEL_CONSUMPTION_10_SEC, 1, 2, 1.0 / 20.0);
 }
 
 
