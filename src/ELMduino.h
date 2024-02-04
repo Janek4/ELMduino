@@ -137,14 +137,14 @@ const uint8_t ENGINE_PERCENT_TORQUE_DATA       = 100; // 0x64 - %
 const uint8_t AUX_INPUT_OUTPUT_SUPPORTED       = 101; // 0x65 - bit encoded
 
 
-const uint8_t ENGINE_FUEL_CONSUPTION 		= 123 // L/h
-const uint8_t REAGENT_AVG_CONSUPTION_1 		= 714 // L/h
-const uint8_t REAGENT_AVG_CONSUPTION_2 		= 715 // L/h
+const uint8_t ENGINE_FUEL_CONSUMPTION 		= 123 // L/h
+const uint8_t REAGENT_AVG_CONSUMPTION_1 	= 714 // L/h
+const uint8_t REAGENT_AVG_CONSUMPTION_2 	= 715 // L/h
 const uint8_t INSTANT_FUEL_CONSUMPTION_CALC_1 	= 230 // L/h
 const uint8_t INSTANT_FUEL_CONSUMPTION_CALC_2 	= 231 // L/100KM
-const uint8_t AVG_FUEL_CONSUPTION 		= 234 // L/100KM
-const uint8_t AVG_FUEL_CONSUPTION_TOTAL 	= 632 // L/100KM
-const uint8_t AVG_FUEL_CONSUPTION_10_SEC	= 804 // L/100KM
+const uint8_t AVG_FUEL_CONSUMPTION 		= 234 // L/100KM
+const uint8_t AVG_FUEL_CONSUMPTION_TOTAL 	= 632 // L/100KM
+const uint8_t AVG_FUEL_CONSUMPTION_10_SEC	= 804 // L/100KM
 
 
 const uint8_t SERVICE_02                       = 2;
