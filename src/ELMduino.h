@@ -137,7 +137,7 @@ const uint8_t ENGINE_PERCENT_TORQUE_DATA       = 100; // 0x64 - %
 const uint8_t AUX_INPUT_OUTPUT_SUPPORTED       = 101; // 0x65 - bit encoded
 
 
-const uint8_t ENGINE_FUEL_CONSUMPTION 		= 123 // L/h
+const uint8_t ENGINE_FUEL_CONSUMPTION 		= 157 // L/h 123
 const uint8_t REAGENT_AVG_CONSUMPTION_1 	= 714 // L/h
 const uint8_t REAGENT_AVG_CONSUMPTION_2 	= 715 // L/h
 const uint8_t INSTANT_FUEL_CONSUMPTION_CALC_1 	= 230 // L/h
@@ -424,7 +424,7 @@ public:
 	uint16_t referenceTorque();
 	uint16_t auxSupported();
 
-	float engineFuelConsumption();		// 123 L/h
+	float engineFuelConsumption();		// 123 L/h 157 g/s
 	float avgReagentConsumption1(); 	// 714 L/h
 	float avgReagentConsumption2(); 	// 715 L/h
 	float instantFuelConsumptionCalc1(); 	// 230 L/h
